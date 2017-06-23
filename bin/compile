@@ -178,7 +178,7 @@ if [ -e "$APP_SOURCE_DIR"/git-packages.json ]; then
   echo "-----> Installing mgp"
   $METEOR_NPM install -g mgp
   echo "-----> Installing the packages"
-  mgp
+  mgp --https
 fi
 
 # Related to https://github.com/meteor/meteor/issues/2796 and
